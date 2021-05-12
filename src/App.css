@@ -1,0 +1,129 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.icon-tanque {
+	position: absolute;
+	width: 150%;
+	height: 150%;
+	margin: -28% 0 0 -28%;
+	background: transparent;
+	enable-background: new 0 0 1080 1080;
+}
+.icon-tanque .st0 {
+	fill: #2eada4;
+}
+.icon-tanque .st1 {
+	fill: transparent;
+}
+.icon-tanque .st2 {
+	fill: #373435;
+}
+.icon-tanque .st3 {
+	fill: #383536;
+}
+.icon-tanque .st4 {
+	fill: #f6fafa;
+}
+.icon-tanque .st5 {
+	fill: #6ebfba;
+}
+.icon-tanque .st6 {
+	fill: #585858;
+}
+.icon-tanque .st7 {
+	fill: #bcbec0;
+}
+
+.icon-bomba {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0% 0 0 -2%;
+	background: transparent;
+	enable-background: new 0 0 1080 1080;
+}
+.icon-bomba .st0 {
+	fill: #e8e8e8;
+}
+.icon-bomba .st1 {
+	fill: #131313;
+}
+.icon-bomba .st2 {
+	fill: #f5f5f5;
+}
+.icon-bomba .st3 {
+	fill: #5b5b5b;
+}
+.icon-bomba .st4 {
+	fill: #c2c2c2;
+}
+.icon-bomba .st5 {
+	fill: #707070;
+}
+.icon-bomba .st6 {
+	fill: #2fb0a7;
+}
+.icon-bomba .st7 {
+	fill: #88898c;
+}
+
+.icon-rosca {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	margin: 3% 0 0 2%;
+	background: transparent;
+	enable-background: new 0 0 1080 1080;
+}
+.icon-rosca .st0 {
+	fill: #2fb0a7;
+}
+.icon-rosca .st1 {
+	fill: #2eada4;
+}
+.icon-rosca .st2 {
+	fill: #2eada4;
+}
+.icon-rosca .st3 {
+	fill: #5b5b5b;
+}
+.icon-rosca .st4 {
+	fill: #c2c2c2;
+}
+.icon-rosca .st5 {
+	fill: #707070;
+}
+.icon-rosca .st6 {
+	fill: #2fb0a7;
+}
+.icon-rosca .st7 {
+	fill: #88898c;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}

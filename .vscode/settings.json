@@ -1,0 +1,20 @@
+{
+	"editor.insertSpaces": true,
+	"editor.tabSize": 2,
+	"editor.autoIndent": "advanced",
+	"editor.useTabStops": true,
+	"editor.tabCompletion": "on",
+	"prettier.vueIndentScriptAndStyle": true,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"node_modules": true
+	}
+}
