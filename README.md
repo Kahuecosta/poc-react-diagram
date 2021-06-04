@@ -1,8 +1,8 @@
-#### POC Diagrama com react-diagram
+#### Prova de Conceito react-diagram
 
-- Esta Poc utliza ReactJS e Typescript
+- Esta Prova de Conceito utliza a biblioteca react-diagram em conjunto com React JS e Typescript para criar um ambiente de manipulação de Diagrama
 
-##### Links
+##### Links de referência
 
 - Códigos de demonstração: `https://github.com/projectstorm/react-diagrams/tree/master/diagrams-demo-gallery/demos`
 - Página de demonstração: `http://projectstorm.cloud/react-diagrams/?path=/story/simple-usage--demo-simple`
@@ -12,13 +12,20 @@
 - npm i
 - npm start
 
-##### Checklist de funcionalidades testadas
+### Preview do Diagrama
 
-- OK Adicionar e remover componentes
-- OK Drag and drop de componentes
-- OK Nomear componentes
-- OK Ligação entre componentes
-- OK Ter componente em formato de ícone
-- OK Visualização somente leitura
-- OK Atualizar informações em tempo real
-- OK Salvar e carregar
+![](image.gif)
+
+##### Checklist de funcionalidades do react-diagram que foram testadas
+
+- [x] Adicionar componentes
+- [x] Remover componentes
+- [x] Drag and drop de componentes
+- [x] Nomear componentes
+- [x] Ligação entre componentes
+- [x] Ter componente em formato de ícone
+- [x] Visualização somente leitura
+- [x] Atualizar informações em tempo real
+- [x] Salvar no navegador
+- [x] Carregar diagrama salvo no navegador
+- [x] Customização de componentes
